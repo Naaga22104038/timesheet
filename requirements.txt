@@ -1,3 +1,4 @@
 awsebcli==3.17.0
 Django==3.0.8
 psycopg2==2.7.4
+psycopg2-binary==2.8.3
