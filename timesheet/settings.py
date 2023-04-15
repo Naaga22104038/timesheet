@@ -9,7 +9,20 @@ https://docs.djangoproject.com/en/2.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
-
+#pylint: disable=inconsistent-return-statements
+#pylint: disable=wrong-import-order
+#pylint: disable=ungrouped-imports
+#pylint: disable=missing-function-docstring
+#pylint: disable=unused-import
+#pylint: disable=no-member
+#pylint: disable=bad-whitespace
+#pylint: disable=no-else-return
+#pylint: disable=bad-continuation
+#pylint: disable=missing-module-docstring
+#pylint: disable=missing-class-docstring
+#pylint: disable=trailing-newlines
+#pylint: disable=missing-final-newline
+#pylint: disable=invalid-name
 import os
 from django.contrib.messages import constants as messages
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)

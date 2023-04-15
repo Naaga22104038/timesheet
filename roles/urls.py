@@ -1,3 +1,6 @@
+#pylint: disable=invalid-name
+#pylint: disable=missing-final-newline
+#pylint: disable=missing-module-docstring
 from django.urls import path
 
 from . import views

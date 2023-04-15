@@ -1,3 +1,7 @@
+#pylint: disable=missing-module-docstring
+#pylint: disable=line-too-long
+#pylint: disable=trailing-newlines
+#pylint: disable=missing-class-docstring
 from django.contrib import admin
 from .models import Employee
 

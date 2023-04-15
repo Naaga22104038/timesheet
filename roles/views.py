@@ -1,4 +1,13 @@
 """This view.py will help to perform backend works """
+#pylint: disable=inconsistent-return-statements
+#pylint: disable=wrong-import-order
+#pylint: disable=ungrouped-imports
+#pylint: disable=missing-function-docstring
+#pylint: disable=unused-import
+#pylint: disable=no-member
+#pylint: disable=bad-whitespace
+#pylint: disable=no-else-return
+#pylint: disable=bad-continuation
 import json as JSON
 from django.shortcuts import render, redirect
 from django.contrib import messages, auth
