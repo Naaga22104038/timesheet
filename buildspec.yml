@@ -12,6 +12,8 @@ phases:
   pre_build:
     commands:
       - python3 --version
+      - pylint $CODEBUILD_SRC_DIR/*.py
+      - pylint $CODEBUILD_SRC_DIR/timesheet/*.py
 
 artifacts:
   files:
